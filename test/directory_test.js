@@ -5,7 +5,7 @@ describe('Directory', ()=> {
 
   it("has a name", ()=> {
     var directory = new Directory('workspace');
-    expect(directory.name).to.equal('ddddd');
+    expect(directory.name).to.equal('workspace');
 
     directory = new Directory('filestuff');
     expect(directory.name).to.equal('filestuff');
